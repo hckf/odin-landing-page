@@ -54,6 +54,10 @@ ul.header-links > li > a {
 }
 
 .image-container {
+  word-wrap: break-word;
+}
+
+.image-content {
   border: 2px solid #3882f6;
   border-radius: 16px;
   height: 180px;
@@ -87,7 +91,6 @@ ul.header-links > li > a {
   margin: 0;
   padding: 0;
   text-align: center;
-  width: 200px;
 }
 
 .introduction {
@@ -155,7 +158,15 @@ ul.header-links > li > a {
 
 .sign-up-info {
   max-width: 70vw;
-  padding: 30px;
+}
+
+.sign-up-box {
+  align-items: center;
+  background-color: #3882f6;
+  border: 2px solid #3882f6;
+  border-radius: 16px;
+  color: #e5e7eb;
+  display: flex;
 }
 
 .sign-up-button {
@@ -168,13 +179,15 @@ ul.header-links > li > a {
   width: 100px;
 }
 
-.sign-up-box {
-  align-items: center;
-  background-color: #3882f6;
-  border: 2px solid #3882f6;
-  border-radius: 16px;
-  color: #e5e7eb;
+.sign-up-header {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.sign-up-text {
   display: flex;
+  flex-direction: column;
+  padding: 20px;
 }
 
 .testimonial {
